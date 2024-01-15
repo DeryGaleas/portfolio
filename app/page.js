@@ -1,6 +1,5 @@
-import Image from "next/image";
 import { HeroSection } from "./component/HeroSection";
-import { NavBar } from "./component/NavBar";
+import { NavBar } from "./component/Navbar";
 import { AboutSection } from "./component/AboutSection";
 import { ProjecsSection } from "./component/ProjecsSection";
 import { Footer } from "./component/Footer";
