@@ -39,14 +39,14 @@ export const Navbar = () => {
               onClick={() => setNavbarOpen(false)}
               className="text-slate-200 flex items-center px-3 py-2 border border-slate-200 rounded hover:text-white hover:border-white"
             >
-              <Bars3Icon className="h-5 w-5" />
+              <XMarkIcon className="h-5 w-5" />
             </button>
           ) : (
             <button
               onClick={() => setNavbarOpen(true)}
               className="text-slate-200 flex items-center px-3 py-2 border border-slate-200 rounded hover:text-white hover:border-white"
             >
-              <XMarkIcon className="h-5 w-5" />
+              <Bars3Icon className="h-5 w-5" />
             </button>
           )}
         </div>
