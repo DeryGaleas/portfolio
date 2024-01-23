@@ -1,6 +1,6 @@
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
-import { MdOutlineMail } from "react-icons/md";
+import { BiLogoGmail } from "react-icons/bi";
 
 export const AchievementsData = [
   {
@@ -26,7 +26,7 @@ export const AchievementsData = [
 export const ContactData = [
   {
     name: "Email",
-    icon: <MdOutlineMail />,
+    icon: <BiLogoGmail />,
     url: "dery.reyna@gmail.com",
   },
   {

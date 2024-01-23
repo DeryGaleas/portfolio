@@ -12,6 +12,12 @@ import { TbMathFunction } from "react-icons/tb";
 import { FaLaptopCode } from "react-icons/fa";
 import { IoMdAnalytics } from "react-icons/io";
 
+//Experience
+import { MdAddBusiness } from "react-icons/md";
+import { BiSolidBarChartAlt2 } from "react-icons/bi";
+import { BiDesktop } from "react-icons/bi";
+import { BiNews } from "react-icons/bi";
+
 export const TAB_DATA = [
   {
     title: "Skills",
@@ -77,12 +83,25 @@ export const TAB_DATA = [
     title: "Experience",
     id: "experience",
     content: (
-      <ul className="list-disc pl-2">
-        <li>Full Stack Web Developer</li>
-        <li>Express</li>
-        <li>Django</li>
-        <li>React</li>
-        <li>Next.js</li>
+      <ul className="list-disc pl-2 space-y-2">
+        <li className="flex flex-row items-center space-x-2 ">
+          <BiSolidBarChartAlt2 className="text-4xl" />
+          <div>
+            Software Developer and Business Consultant (Ostuma Consulting)
+          </div>
+        </li>
+        <li className="flex flex-row items-center space-x-2 ">
+          <BiDesktop className="text-4xl" />
+          <div>Web and Product Developer (Linkage Academy)</div>
+        </li>
+        <li className="flex flex-row items-center space-x-2 ">
+          <BiNews className="text-4xl" />
+          <div>Web Developer and Content Manager (People and Teams)</div>
+        </li>
+        <li className="flex flex-row items-center space-x-2 ">
+          <MdAddBusiness className="text-4xl" />
+          <div>Web Developer (Elevate)</div>
+        </li>
       </ul>
     ),
   },
