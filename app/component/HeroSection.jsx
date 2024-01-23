@@ -43,11 +43,14 @@ export const HeroSection = () => {
             <button className="px-6 py-3 rounded-full w-full sm:w-fit bg-gradient-to-br from-tertiary via-primary to-secondary hover:bg-slate-200 text-white mr-4">
               Hire Me
             </button>
-            <button className="mt-4 px-1 py-1 rounded-full w-full sm:w-fit  bg-gradient-to-br from-tertiary via-primary to-secondary hover:bg-slate-800 text-white border">
-              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2 ">
-                Download CV
-              </span>
-            </button>
+
+            <a href="https://drive.google.com/uc?export=download&id=1GVh4C0N1Wpxsdy8LAwf4uB8SNcN_XaLk">
+              <button className="mt-4 px-1 py-1 rounded-full w-full sm:w-fit  bg-gradient-to-br from-tertiary via-primary to-secondary hover:bg-slate-800 text-white border">
+                <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2 ">
+                  Download CV
+                </span>
+              </button>
+            </a>
           </div>
         </motion.div>
         <motion.div
