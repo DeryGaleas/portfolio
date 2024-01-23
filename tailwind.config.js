@@ -19,9 +19,9 @@ module.exports = {
     // 500 gradient scale for original colors
     colors: {
       ...colors,
-      primary: "#ea777b",
-      secondary: "#fab96b",
-      tertiary: "#ba456a",
+      primary: "#ff3d00",
+      secondary: "#fab243",
+      tertiary: "#f3c75f",
     },
   },
   plugins: [],

@@ -16,16 +16,22 @@ export const AboutSection = () => {
   return (
     <section id="about" className="text-white">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src={"/about.jpg"} alt="about" width={500} height={500} />
+        <Image
+          className="drop-shadow-2xl rounded-md"
+          src={"/about.png"}
+          alt="about"
+          width={500}
+          height={500}
+        />
 
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
             Hello Friend, what am about to tell you is top secret! I am a
             regular guy, simply ecstatic with the future. It seems that the
-            future now is being planned and built in a room by regular guys like
-            me. But we need a spark to make the projects of today become the
-            bases of tomorrow.
+            future, now is being planned and built in a room, by regular guys
+            like me. But we need a spark to make the projects of today become
+            the bases of tomorrow.
           </p>
 
           <div className="flex flex-row mt-8 justify-start">

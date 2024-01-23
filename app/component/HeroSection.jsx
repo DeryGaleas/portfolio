@@ -3,6 +3,7 @@ import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export const HeroSection = () => {
   return (
@@ -36,13 +37,13 @@ export const HeroSection = () => {
               repeat={Infinity}
             />
           </h1>
-          <p className="text-[#ADB7BE] sm:text-lg text-base lg:text-xl mb-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
+
           <div>
-            <button className="px-6 py-3 rounded-full w-full sm:w-fit bg-gradient-to-br from-tertiary via-primary to-secondary hover:bg-slate-200 text-white mr-4">
-              Hire Me
-            </button>
+            <Link href="#footer">
+              <button className="px-6 py-3 rounded-full w-full sm:w-fit bg-gradient-to-br from-tertiary via-primary to-secondary hover:bg-slate-200 text-white mr-4">
+                Hire Me
+              </button>
+            </Link>
 
             <a href="https://drive.google.com/uc?export=download&id=1GVh4C0N1Wpxsdy8LAwf4uB8SNcN_XaLk">
               <button className="mt-4 px-1 py-1 rounded-full w-full sm:w-fit  bg-gradient-to-br from-tertiary via-primary to-secondary hover:bg-slate-800 text-white border">
@@ -59,13 +60,13 @@ export const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-5 place-self-center mt-20 lg:mt-0"
         >
-          <div className=" rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[420px] lg:h-[420px] relative">
+          <div className=" rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[450px] lg:h-[450px] relative">
             <Image
               src={"/Dery.png"}
               alt="Dery Galeas"
-              width={300}
-              height={300}
-              className="shadow-2xl rounded-lg absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              width={285}
+              height={285}
+              className="rounded-lg absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
             />
           </div>
         </motion.div>

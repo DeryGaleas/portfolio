@@ -4,22 +4,23 @@ import { BiLogoGmail } from "react-icons/bi";
 
 export const AchievementsData = [
   {
-    metric: "dery.reyna@gmail.com",
-    value: "100+",
-    postfix: "+",
+    metric: "Programming Languages",
+    value: "3",
   },
   {
-    metric: "Users",
-    value: "100000",
-    prefix: "~",
+    metric: "Projects",
+    value: "10",
+    prefix: "+",
   },
   {
-    metric: "Awards",
-    value: "7",
-  },
-  {
-    metric: "Years",
+    metric: "clients",
     value: "5",
+    prefix: "+",
+  },
+  {
+    prefix: "+",
+    metric: "Years",
+    value: "3",
   },
 ];
 

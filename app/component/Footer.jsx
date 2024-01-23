@@ -28,7 +28,9 @@ export const Footer = () => {
             </Link>
           ))}
         </div>
-        <p className="text-slate-200">All rights reserved</p>
+        <div className="flex items-end">
+          <p className=" text-slate-200">All rights reserved</p>
+        </div>
       </div>
     </footer>
   );
