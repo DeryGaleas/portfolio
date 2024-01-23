@@ -21,10 +21,11 @@ export const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, non
-            suscipit nisi, eum esse dignissimos aliquid consectetur ad
-            voluptatibus corporis, obcaecati tempora numquam earum neque debitis
-            et totam quis provident!
+            Hello Friend, what am about to tell you is top secret! I am a
+            regular guy, simply ecstatic with the future. It seems that the
+            future now is being planned and built in a room by regular guys like
+            me. But we need a spark to make the projects of today become the
+            bases of tomorrow.
           </p>
 
           <div className="flex flex-row mt-8 justify-start">
