@@ -7,26 +7,49 @@ import { motion, useInView } from "framer-motion";
 const ProjectData = [
   {
     id: 1,
-    title: "Meraki Website",
+    title: "McSystem Pre-Employee Software",
     description: "Professional Business Website",
-    image: "/meraki_website.png",
+    image: "/preempleo.png",
     tag: ["All", "Web"],
     gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "https://vimeo.com/906080577/8cc04d60d5?share=copy",
+    codeAvailable: false,
   },
   {
     id: 2,
+    title: "Ostuma Consulting Website",
+    description: "Professional Business Website",
+    image: "/ostuma.png",
+    tag: ["All", "Web"],
+    gitUrl: "/",
+    previewUrl: "https://vimeo.com/905834781/fa120075d1?share=copy",
+    codeAvailable: false,
+  },
+  {
+    id: 3,
     title: "Project 2",
     description: "Professional Business Website",
     image: "/meraki_website.png",
     tag: ["All", "Web"],
+    codeAvailable: false,
   },
   {
-    id: 3,
-    title: "Project 3",
+    id: 4,
+    title: "People and Teams Website",
     description: "Professional Business Website",
-    image: "/meraki_website.png",
+    image: "/peopleandteams.png",
     tag: ["All", "Mobile"],
+    previewUrl: "https://vimeo.com/905840634/e3e42472fd?share=copy",
+    codeAvailable: false,
+  },
+  {
+    id: 5,
+    title: "Elevate Landing Page",
+    description: "Professional Business Website",
+    image: "/empleabilidaddigital.png",
+    tag: ["All", "Mobile"],
+    previewUrl: "https://vimeo.com/905999944/10bf34afa4?share=copy",
+    codeAvailable: false,
   },
 ];
 
@@ -79,6 +102,7 @@ export const ProjecsSection = () => {
               title={project.title}
               description={project.description}
               imgUrl={project.image}
+              previewUrl={project.previewUrl}
             />
           </motion.li>
         ))}
