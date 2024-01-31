@@ -8,7 +8,7 @@ const ProjectData = [
   {
     id: 1,
     title: "McSystem Pre-Employee Software",
-    description: "Professional Business Website",
+    description: "Web System to Recollect Job Applications",
     image: "/preempleo.png",
     tag: ["All", "Web"],
     gitUrl: "/",
