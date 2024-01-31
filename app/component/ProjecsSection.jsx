@@ -27,7 +27,7 @@ const ProjectData = [
   },
   {
     id: 3,
-    title: "Project 2",
+    title: "Meraki Website",
     description: "Professional Business Website",
     image: "/meraki_website.png",
     tag: ["All", "Web"],
@@ -45,7 +45,7 @@ const ProjectData = [
   {
     id: 5,
     title: "Elevate Landing Page",
-    description: "Professional Business Website",
+    description: "Landing Page",
     image: "/empleabilidaddigital.png",
     tag: ["All", "Mobile"],
     previewUrl: "https://vimeo.com/905999944/10bf34afa4?share=copy",
@@ -80,11 +80,6 @@ export const ProjecsSection = () => {
           onClick={handleTagChange}
           name="All"
           isSelected={tag === "All"}
-        />
-        <ProjectTag
-          onClick={handleTagChange}
-          name="Web"
-          isSelected={tag === "Web"}
         />
       </div>
 
