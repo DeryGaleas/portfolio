@@ -27,11 +27,15 @@ export const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            Hello Friend, what am about to tell you is top secret! I am a
-            regular guy, simply ecstatic with the future. It seems that the
-            future, now is being planned and built in a room, by regular guys
-            like me. But we need a spark to make the projects of today become
-            the bases of tomorrow.
+            Hello everyone. I would like to introduce myself; I am Dery Galeas,
+            a professional delighted to work in passionate teams in software
+            development. My constant curiosity in the projects I have
+            undertaken, has led me to embark on a new academic journey, by
+            pursuing a Master's in Mathematical Engineering to gain a deeper
+            knowledge of the subject.
+            <br /> <br />I would love to help in any way possible. Feel free to
+            contact me or reach out for any questions or concerns. It will
+            always be a pleasure.
           </p>
 
           <div className="flex flex-row mt-8 justify-start">
