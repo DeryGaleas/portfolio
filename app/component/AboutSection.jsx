@@ -27,7 +27,7 @@ export const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            Hello everyone. I would like to introduce myself; I am Dery Galeas,
+            Hello everyone. I would like to introduce myself. I am Dery Galeas,
             a professional delighted to work in passionate teams in software
             development. My constant curiosity in the projects I have
             undertaken, has led me to embark on a new academic journey, by
